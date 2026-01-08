@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Mail, ExternalLink } from 'lucide-react';
+import { ArrowRight, Download, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { resumeData } from '../data/resumeData';
 
@@ -57,12 +57,22 @@ const Home: React.FC = () => {
             View Projects
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </Link>
+
+          {/* Download Resume Button */}
+          <a
+            href={resumeData.resumeUrl}
+            download="Libin_Babu_Resume.pdf"
+            className="px-8 py-4 bg-transparent hover:bg-cyan-400/10 text-cyan-400 font-bold rounded-lg transition-all border border-cyan-400/30 flex items-center gap-2 group"
+          >
+            Download CV
+            <Download size={20} className="group-hover:translate-y-0.5 transition-transform" />
+          </a>
           
           <Link
             to="/contact"
             className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-lg transition-all border border-slate-700 flex items-center gap-2"
           >
-            Get In Touch
+            Contact Me
             <Mail size={20} />
           </Link>
         </MotionDiv>

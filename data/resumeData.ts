@@ -7,10 +7,12 @@ export const resumeData: ResumeData = {
   email: "Libinbabukalapurackal@gmail.com",
   phone: "+91 8547242798",
   location: "Kochi, Kerala, India",
-  linkedin: "https://linkedin.com/in/libin--babu",
+  linkedin: "https://linkedin.com/in/libin-babu",
   github: "https://github.com/LibinBabu2003",
   // Updated with your provided Formspree ID
   contactFormId: "mojvgpwa", 
+  // Add your resume PDF file path here (usually in the 'public' folder)
+  resumeUrl: "https://drive.google.com/file/d/1DG2EX-iUOYfFJrCt6dRIkHz_vdcTFVUA/view?usp=sharing",
   summary: "Computer Science graduate with a strong foundation in Python programming, Machine Learning, and data analysis. Hands-on experience in data preprocessing, exploratory data analysis (EDA), and building predictive models using real-world datasets. Familiar with Deep Learning, Natural Language Processing, Computer Vision fundamentals, and modern AI workflows.",
   skills: [
     { name: "Python", category: "Programming", level: 90 },

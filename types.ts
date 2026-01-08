@@ -36,6 +36,7 @@ export interface ResumeData {
   linkedin: string;
   github: string;
   summary: string;
+  resumeUrl?: string;
   contactFormId?: string; // Formspree or similar ID
   skills: Skill[];
   projects: Project[];
