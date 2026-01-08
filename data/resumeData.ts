@@ -7,7 +7,7 @@ export const resumeData: ResumeData = {
   email: "Libinbabukalapurackal@gmail.com",
   phone: "+91 8547242798",
   location: "Kochi, Kerala, India",
-  linkedin: "https://linkedin.com/in/libin-babu",
+  linkedin: "https://linkedin.com/in/libin--babu",
   github: "https://github.com/LibinBabu2003",
   // Updated with your provided Formspree ID
   contactFormId: "mojvgpwa", 
